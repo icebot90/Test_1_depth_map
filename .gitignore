@@ -1,0 +1,30 @@
+# Checkpoints and models
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Output directories
+output/
+camera_results/
+results/
+runs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+desktop.ini
+Thumbs.db

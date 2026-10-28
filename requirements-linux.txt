@@ -1,0 +1,19 @@
+# Python requirements for Linux OS (Ubuntu 20.04 / 22.04 / 24.04 and NVIDIA Jetson)
+#
+# NOTE FOR NVIDIA JETSON (Orin Nano / Xavier / Nano):
+# Do NOT install torch or torchvision via pip on Jetson!
+# NVIDIA JetPack provides pre-installed, hardware-accelerated PyTorch.
+# If torch is missing on Jetson, install the official NVIDIA wheel:
+# https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+#
+# FOR STANDARD UBUNTU PC / SERVER (x86_64 with NVIDIA GPU):
+# Install PyTorch with CUDA first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+opencv-python>=4.8.0
+PyYAML>=5.4.1
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+psutil>=5.9.0
