@@ -1,0 +1,4 @@
+camera_results/
+__pycache__/
+*.py[cod]
+best_stg1.pth/

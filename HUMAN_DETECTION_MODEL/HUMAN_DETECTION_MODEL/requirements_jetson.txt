@@ -1,0 +1,10 @@
+# Verified on Jetson Orin Nano JetPack/L4T R36.5 with Python 3.10.12.
+# These are reference versions only. Do not run pip install for torch on Jetson.
+# The NVIDIA JetPack-provided torch/torchvision packages must remain installed.
+torch==2.8.0
+torchvision==0.23.0
+opencv-python==4.9.0.80
+protobuf==4.25.9
+tensorboard==2.20.0
+PyYAML==5.4.1
+scipy==1.15.3

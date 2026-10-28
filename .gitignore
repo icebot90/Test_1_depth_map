@@ -4,6 +4,7 @@ checkpoints/
 *.pth
 *.onnx
 *.engine
+!HUMAN_DETECTION_MODEL/HUMAN_DETECTION_MODEL/best.pt
 
 # Python cache
 __pycache__/
